@@ -1,7 +1,7 @@
 console.log('Start Code');
 
 // basic object function
-/*
+
 const circle = {
   radius: 1,
   location: { x: 1, y: 1 },
@@ -10,7 +10,7 @@ const circle = {
   }
 };
 circle.draw();
-*/
+
 // factorz function
 function createCircle(radius) {
   return {
@@ -34,3 +34,24 @@ function Circle(radius) {
 
 const circle2 = new Circle(1);
 circle2.draw();
+
+// regular scope storage
+let num = 10;
+
+function increase(num) {
+  num.value++;
+}
+
+increase(num);
+console.log(num);//value remain at 10, since it is not stored outside function
+
+// storing data in objects
+
+let obj = { value: 10 };
+
+function increase(obj) {
+  obj.value++;
+}
+
+increase(obj);
+console.log(obj);//value is 11

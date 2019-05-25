@@ -11,7 +11,7 @@ const circle = {
 };
 circle.draw();
 
-// factorz function
+// factory function
 function createCircle(radius) {
   return {
     radius,

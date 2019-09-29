@@ -12,8 +12,8 @@ var elie = {
   firstName: "Elie",
 }
 
-vat elieCalc = colt.addNumbers.bind(elie,1,2,3,4); //
+var elieCalc = colt.addNumbers.bind(elie,1,2,3,4); //
 elieCalc(); // Elie just calculated 10
 
 var elieCalc2 = colt.addNumbers.bind(elie,1,2);
-elieCalc(3,4);
+elieCalc2(3,4); // Elie just calculated 10

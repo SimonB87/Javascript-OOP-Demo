@@ -1,6 +1,8 @@
 # Advanced-JS---keyword-this-OOP
 
-## Section41 of Colt Steel Bootcamp for web development
+## Section "JavaScript the tricky stuff" of Colt Steel Bootcamp for web development
+
+## Keyword "this"
 
 ### RULES OF DETRMINING KEY WORD "this"
 1. Outside of a declared object, "this" means the global (window) object.
@@ -19,7 +21,7 @@
 ### Call method 
 * Sets, what the "this" is related to.
 * PARAMETERS:  thisArg, a, b, c, d, ...
-  * this way function can take in any number of arguments.
+    * this way function can take in any number of arguments.
 * INVOCE IMMEDIATELY?: Yes.
 
 ### Apply method 
@@ -36,3 +38,22 @@
 
 ### The "new" keyword
 * In case a "new" is used to declare a new object, key word "this" is used to newly declared object
+
+## Object oriented programming
+* Programming using objects.
+* These objects are constructed from what are called "classes", which we can think of like a blueprint. We call these objects created from classes "instances".
+* The aim is to make classes abstract and modular.
+* Javascript doesnt have a support for classes.
+    * We mimic the classes by using objects and functions.
+
+### Constructor functions
+* We can use a function as a blueprint for what each house should be - we call these kinds of functions "construcotr" functions.
+* The class has first letter capitalized as a convention.
+
+### The "new" keyword and OOP
+* The "new" keyword must be used with a function.
+* The "new" keyword creates a new object. 
+* The "new" keyword sets the keyword "this" to the newly created object. 
+* The "new" keyword implicitly adds "return this" to the end of the function, which follows it. 
+* The "new" keyword adds a property onto the empty object, which can be accessed by calling "__proto__", which links the property on the constructor function to the empty object.
+    *   The "__proto__" is pronounced “dunder proto” due to the double underscore notation it borrows from Python.

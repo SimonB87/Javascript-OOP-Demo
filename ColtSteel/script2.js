@@ -1,5 +1,8 @@
-//Strict mode in ES5
+//Strict mode in ES5.
+//by this keyword this in the function whatIsInThis() is not defined.
+//...this help me not to declare a global variable by axident. 
 "use strict"
+
 
 function whatIsThis(){
   return this;

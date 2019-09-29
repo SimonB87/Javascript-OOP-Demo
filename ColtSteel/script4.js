@@ -1,4 +1,11 @@
-//call method - sets, what the "this" is related to
+//RULE 3 - choose, what we want to context of the "this" to be using call, apply or bind
+//The methods call, apply or bind CAN only be used in FUNCTIONS.
+
+
+//Call method - sets, what the "this" is related to
+//Call method - PARAMETERS:  thisArg, a, b, c, d, ...
+//Call method - INVOCE IMMEDIATELY?: Yes
+
 var person = {
   firstName: "El",
   sayHi: function(){

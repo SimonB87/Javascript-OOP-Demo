@@ -1,4 +1,6 @@
-//method call and apply are similar, the differences is, how they pass in the arguments
+//Method call and apply are similar, the differences is, how they pass in the arguments
+//AIM: We want to use the same method sayHi() for different object elie. We can use call method to do it.
+
 var colt = {
   firstName: "Colt",
   sayHi: function(){
@@ -26,5 +28,7 @@ var rich = {
     return this.firstName + " just calculated " + (a+b+c+d);
   }
 }
+
+rich.addNumbers.call(colt,10,20,30,40);//"Colt just calculated 100"
 
 rich.addNumbers.apply(colt,[1,2,3,4]);//"Colt just calculated 10"

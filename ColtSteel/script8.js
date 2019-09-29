@@ -5,7 +5,7 @@ function Person(firstName, lastName) {
     this.lastName = lastName
 }
 
-var elis = new Person("Elie", "Schoppik");
+var elie = new Person("Elie", "Schoppik");
 
 elie.firstName;//returns "Elie"
 elie.lastName;//returns "Schoppik"

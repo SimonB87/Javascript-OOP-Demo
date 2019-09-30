@@ -2,7 +2,7 @@
 
 ## Section "JavaScript the tricky stuff" of Colt Steel Bootcamp for web development
 
-## Keyword "this"
+## Section Keyword "this"
 
 ### RULES OF DETRMINING KEY WORD "this"
 1. Outside of a declared object, "this" means the global (window) object.
@@ -36,8 +36,7 @@
 * Bind can be used, if we dont know all the arguments passed to the function. So we get a function definition with some of the parameters set. This is called PARTIAL APPLICATION.
 * Bind has appliacation in cases of asinchonous code, like case of usage of setTimeout.
 
-### The "new" keyword
-* In case a "new" is used to declare a new object, key word "this" is used to newly declared object
+## Section on object oriented programming
 
 ## Object oriented programming
 * Programming using objects.
@@ -47,13 +46,23 @@
     * We mimic the classes by using objects and functions.
 
 ### Constructor functions
-* We can use a function as a blueprint for what each house should be - we call these kinds of functions "construcotr" functions.
+* We can use a function as a blueprint for what each house should be - we call these kinds of functions "constructor" functions.
 * The class has first letter capitalized as a convention.
+* The objects created from Classes are called "instances".
 
 ### The "new" keyword and OOP
+* In case a "new" is used to declare a new object.
+* It sets the key word "this" is to newly declared object.
 * The "new" keyword must be used with a function.
 * The "new" keyword creates a new object. 
 * The "new" keyword sets the keyword "this" to the newly created object. 
 * The "new" keyword implicitly adds "return this" to the end of the function, which follows it. 
 * The "new" keyword adds a property onto the empty object, which can be accessed by calling "__proto__", which links the property on the constructor function to the empty object.
     *   The "__proto__" is pronounced “dunder proto” due to the double underscore notation it borrows from Python.
+
+### Prototypes
+* Every constructor function has a property on it called "prototype", which is an object.
+* The prototype object has a property on it called "constructor", which points back to the constructor function.
+* Anytime an object is created using a "new" keyword, a property called "__proto__" gets created, linking the object and the prototype property of the constructor function.
+* Prototype is an object, which can have me methods and properties placed on it.
+    * These methods and properties can be shared among any objects created by that constructor function, when the "new" keyword is used.

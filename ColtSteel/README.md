@@ -66,3 +66,5 @@
 * Anytime an object is created using a "new" keyword, a property called "__proto__" gets created, linking the object and the prototype property of the constructor function.
 * Prototype is an object, which can have me methods and properties placed on it.
     * These methods and properties can be shared among any objects created by that constructor function, when the "new" keyword is used.
+* If JavaScript can not find methods and properties, it looks into objects __proto__ for them in there.
+    * Prototype chain: If JavaScript can not find a method, it goes into __proto__ (first) and searches it, if JS still cant find, it goes into that nested another __proto__(second) to search for the method, untill it reaches the second __proto__ with a value of "null", where the __proto__ chain ends.

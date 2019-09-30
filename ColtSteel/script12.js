@@ -22,3 +22,4 @@ elie.isInstructor // returns: true
 colt.isInstructor // returns: true
 
 //The reason why now the objects "elie" and "colt" have access to the "isInstructor" property is because there is property "__proto__"
+//.. anytime another object is crated by constructor function with key word "new", it gets properties from the const 

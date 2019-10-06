@@ -1,4 +1,4 @@
-# Advanced-JS---keyword-this-OOP
+﻿# Advanced-JS---keyword-this-OOP
 
 ## Section "JavaScript the tricky stuff" of Colt Steel Bootcamp for web development
 
@@ -73,4 +73,5 @@
 * A closure is a functionthat makes use of variables defined in outer functions that have previous that have previously returned.
 
 ### Private variables
-* Variables, that can not be modified externaly are private. There are no private variable sin javaScript, but closure can help us.
+* Variables, that can not be modified externaly are private. There are no private variable sin javaScript, but closure can help us. 
+* a...

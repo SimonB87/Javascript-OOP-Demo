@@ -1,6 +1,6 @@
 //Strict mode in ES5.
 //by this keyword this in the function whatIsInThis() is not defined.
-//...this help me not to declare a global variable by axident. 
+//...this help me not to declare a global variable by accident. 
 "use strict"
 
 
@@ -13,6 +13,6 @@ whatIsThis(); //Uncaught TypeError: Cannot set property 'person' of undefined at
 function whatIsInThis(){
   this.person = "Patrik";//Uncaught TypeError: Cannot set property 'person' of undefined at whatIsInThis
 }
-whatIsInThis();//code will not run in funtion error
+whatIsInThis();//code will not run in function error
 
-console.log(person);//code will not run in funtion error
+console.log(person);//code will not run in function error

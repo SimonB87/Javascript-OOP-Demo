@@ -1,5 +1,5 @@
 //Method call and apply are similar, the differences is, how they pass in the arguments
-//AIM: We want to use the same method sayHi() for different object elie. We can use call method to do it.
+//AIM: We want to use the same method sayHi() for different object ellie. We can use call method to do it.
 
 var colt = {
   firstName: "Colt",
@@ -8,15 +8,15 @@ var colt = {
   }
 }
 
-var elie = {
-  firstName: "Elie",
+var ellie = {
+  firstName: "Ellie",
 }
 
 colt.sayHi();//"Hi Colt"
 
-colt.sayHi.call(elie); //"Hi Elie"
+colt.sayHi.call(ellie); //"Hi Elie"
 
-colt.sayHi.apply(elie);//"Hi Elie"
+colt.sayHi.apply(ellie);//"Hi Elie"
 
 
 var rich = {

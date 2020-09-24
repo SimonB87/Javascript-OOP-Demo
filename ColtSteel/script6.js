@@ -8,12 +8,12 @@ var colt= {
   }
 }
 
-var elie = {
-  firstName: "Elie",
+var ellie = {
+  firstName: "Ellie",
 }
 
-var elieCalc = colt.addNumbers.bind(elie,1,2,3,4); //
-elieCalc(); // Elie just calculated 10
+var ellieCalc = colt.addNumbers.bind(ellie,1,2,3,4); //
+ellieCalc(); // Ellie just calculated 10
 
-var elieCalc2 = colt.addNumbers.bind(elie,1,2);
-elieCalc2(3,4); // Elie just calculated 10
+var ellieCalc2 = colt.addNumbers.bind(ellie,1,2);
+ellieCalc2(3,4); // Ellie just calculated 10

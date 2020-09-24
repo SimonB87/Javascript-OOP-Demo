@@ -12,11 +12,11 @@
 
 ### METHODS
 
-| NAME METHOD  | PARAMETERS | INVOKE IMMEDIATELY |
-| ------------- | ------------- | ------------- |
-| Call  | thisArg, a, b, c, ...  |  Yes |
-| Apply  | thisArg, [a, b, c, ...]  |  Yes  |
-| Bind  | thisArg, a, b, c, ...  |  No  |
+| NAME METHOD   | PARAMETERS               | INVOKE IMMEDIATELY |
+| ------------- | -----------------------  | ---- |
+| Call          | thisArg, a, b, c, ...    |  Yes |
+| Apply         | thisArg, [a, b, c, ...]  |  Yes |
+| Bind          | thisArg, a, b, c, ...    |  No  |
 
 ### Call method 
 * Sets, what the "this" is related to.

@@ -4,7 +4,7 @@
 
 //Call method - sets, what the "this" is related to
 //Call method - PARAMETERS:  thisArg, a, b, c, d, ...
-//Call method - INVOCE IMMEDIATELY?: Yes
+//Call method - INVOKE IMMEDIATELY?: Yes
 
 var person = {
   firstName: "El",
@@ -33,9 +33,9 @@ var colt = {
   }
 }
 
-var elie = {
-  firstName: "Elie",
+var ellie = {
+  firstName: "Ellie",
 }
 
-colt.sayHi();
-colt.sayHi.call(elie);
+colt.sayHi(); // returns: "Hi Colt"
+colt.sayHi.call(ellie); //returns: "Hi Ellie"

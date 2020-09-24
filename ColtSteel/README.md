@@ -22,7 +22,7 @@
 * Sets, what the "this" is related to.
 * PARAMETERS:  thisArg, a, b, c, d, ...
     * this way function can take in any number of arguments.
-* INVOCE IMMEDIATELY?: Yes.
+* INVOKE IMMEDIATELY?: Yes.
 
 ### Apply method 
 * Sets, what the "this" is related to.
@@ -30,11 +30,11 @@
 
 ### Bind method 
 * Almost identical to call.
-* Bind returns function definition and not invoces the function definition to the "thisArg".
-* Bind anables us to save different function with determined different value of the keyword "this" and invoke them in a later time. 
+* Bind returns function definition and not invokes the function definition to the "thisArg".
+* Bind enables us to save different function with determined different value of the keyword "this" and invoke them in a later time. 
 * Bind is good for more advanced coding like setTimeOut.
-* Bind can be used, if we dont know all the arguments passed to the function. So we get a function definition with some of the parameters set. This is called PARTIAL APPLICATION.
-* Bind has appliacation in cases of asinchonous code, like case of usage of setTimeout.
+* Bind can be used, if we don't know all the arguments passed to the function. So we get a function definition with some of the parameters set. This is called PARTIAL APPLICATION.
+* Bind has application in cases of asynchronous code, like case of usage of setTimeout.
 
 ## Section on object oriented programming
 
@@ -42,7 +42,7 @@
 * Programming using objects.
 * These objects are constructed from what are called "classes", which we can think of like a blueprint. We call these objects created from classes "instances".
 * The aim is to make classes abstract and modular.
-* Javascript doesnt have a support for classes.
+* Javascript doesn't have a support for classes.
     * We mimic the classes by using objects and functions.
 
 ### Constructor functions
